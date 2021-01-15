@@ -1,0 +1,111 @@
+:root {  /* adiciona variaveis ao css, tornando mais facil fazer alteracoes */
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* nenhum elemento vai ultrapassar a borda da caixa,se os elementos nao couberem dentro eles vao se espremer */
+}
+
+/* ELEMENTOS BASE */ 
+
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    /*flex-direction: row; isso é padrao quando se usa o display flex*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;  /*A primeira fonte é a usada e a do lado é o backup*/
+    font-size: 35px;
+}
+
+header nav a {
+    text-decoration: none; /*remove decoracoes, tipo os sublinhados dos links */
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* FILME PRINCIPAL */
+
+.filme-principal {
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../img/ozark2.jpg);
+
+    height: 500px;
+    background-size: cover; /*A imagem cobre todo espaco definido da caixa, inclusive fazendo recortes devido ao cover*/
+    background-position: center; /*A imagem sempre busca ficar centralizada*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 90px;
+    text-align: justify;
+}
+
+.filme-principal .titulo {
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 50;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer; /*o cursor vira a maozinha*/
+    transition: .4s;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 90%;
+    width: 90%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
