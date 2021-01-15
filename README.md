@@ -73,3 +73,13 @@ flex-direction: column. Quando a flex-direction possui essa configuração o ali
 
 <p align="justify">Dentro dessa div implementei o código HTML para o slider carrossel do plugin jQuery. Dentro de cada <b>div class="item"</b>, coloquei uma imagem com a classe
 <b>box-filme</b>. A configuração CSS para cada imagem dentro dessa classe <b>box-filme</b> foi de largura 90% e altura 90%.</p>
+
+<h2>Imagens do projeto final</h2>
+
+<h3>Computador</h3>
+<img src="https://github.com/ravellathuany/projetoInterfaceNetflix/blob/main/img/proj-netflix1.png?raw=true">
+<img src="https://github.com/ravellathuany/projetoInterfaceNetflix/blob/main/img/proj-netflix2.png?raw=true">
+
+<h3>Celular</h3>
+<img src="https://github.com/ravellathuany/projetoInterfaceNetflix/blob/main/img/proj-netflix3.png?raw=true">
+<img src="https://github.com/ravellathuany/projetoInterfaceNetflix/blob/main/img/proj-netflix4.png?raw=true">
